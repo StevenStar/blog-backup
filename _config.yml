@@ -4,12 +4,12 @@
 
 # Site
 title: 王俊星的博客
-subtitle: 改变编程，改变世界，没毛病...
-description: 淮南师范学院08级，就职于赵涌在线技术部。擅长各项前端技能，深入研究移动开发与前端开发。非专业视觉设计师
+subtitle: 为了生活编程，编程改变生活
+description: 淮南师范学院08级，就职于赵涌在线技术部。擅长各项编程技能，非专业全栈开发攻城师
 author: steven.wang
 email: stevenjxw@gmail.com
 language: zh-Hans
-timezone:
+timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
@@ -79,6 +79,7 @@ deploy:
 
 sitemap:
     path: sitemap.xml
+    template: ./sitemap_template.xml
 
 feed:
     type: atom
