@@ -76,7 +76,7 @@
 <link href="/css/main.css?v=5.1.1" rel="stylesheet" type="text/css" />
 
 
-  <meta name="keywords" content="Hexo, NexT" />
+  <meta name="keywords" content="GIT," />
 
 
 
@@ -92,15 +92,17 @@
 
 
 
-<meta name="description" content="淮南师范学院08级，就职于赵涌在线技术部。擅长各项编程技能，非专业全栈开发攻城师">
-<meta property="og:type" content="website">
-<meta property="og:title" content="王俊星的博客">
-<meta property="og:url" content="http://stevenstar.github.io/index.html">
+<meta name="description" content="安装从源代码安装Git 的工作需要调用 curl，zlib，openssl，expat，libiconv 等库的代码，所以需要先安装这些依赖工具。在有 yum 的系统上（比如 Fedora）或者有 apt-get 的系统上（比如 Debian 体系），可以用下面的命令安装：12$ yum install curl-devel expat-devel gettext-devel openssl-de">
+<meta name="keywords" content="GIT">
+<meta property="og:type" content="article">
+<meta property="og:title" content="GIT常用命令">
+<meta property="og:url" content="http://stevenstar.github.io/2017/05/23/GIT常用命令/index.html">
 <meta property="og:site_name" content="王俊星的博客">
-<meta property="og:description" content="淮南师范学院08级，就职于赵涌在线技术部。擅长各项编程技能，非专业全栈开发攻城师">
+<meta property="og:description" content="安装从源代码安装Git 的工作需要调用 curl，zlib，openssl，expat，libiconv 等库的代码，所以需要先安装这些依赖工具。在有 yum 的系统上（比如 Fedora）或者有 apt-get 的系统上（比如 Debian 体系），可以用下面的命令安装：12$ yum install curl-devel expat-devel gettext-devel openssl-de">
+<meta property="og:updated_time" content="2017-05-24T03:24:08.000Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="王俊星的博客">
-<meta name="twitter:description" content="淮南师范学院08级，就职于赵涌在线技术部。擅长各项编程技能，非专业全栈开发攻城师">
+<meta name="twitter:title" content="GIT常用命令">
+<meta name="twitter:description" content="安装从源代码安装Git 的工作需要调用 curl，zlib，openssl，expat，libiconv 等库的代码，所以需要先安装这些依赖工具。在有 yum 的系统上（比如 Fedora）或者有 apt-get 的系统上（比如 Debian 体系），可以用下面的命令安装：12$ yum install curl-devel expat-devel gettext-devel openssl-de">
 
 
 
@@ -128,13 +130,13 @@
 
 
 
-  <link rel="canonical" href="http://stevenstar.github.io/"/>
+  <link rel="canonical" href="http://stevenstar.github.io/2017/05/23/GIT常用命令/"/>
 
 
 
 
 
-  <title>王俊星的博客</title>
+  <title>GIT常用命令 | 王俊星的博客</title>
 </head>
 
 <body itemscope itemtype="http://schema.org/WebPage" lang="zh-Hans">
@@ -160,9 +162,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -285,9 +285,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -313,9 +313,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/23/GIT常用命令/" itemprop="url">GIT常用命令</a></h1>
+          <h1 class="post-title" itemprop="name headline">GIT常用命令</h1>
         
 
         <div class="post-meta">
@@ -394,9 +392,7 @@
       
 
       
-        
-          
-            <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="从源代码安装"><a href="#从源代码安装" class="headerlink" title="从源代码安装"></a>从源代码安装</h2><p>Git 的工作需要调用 curl，zlib，openssl，expat，libiconv 等库的代码，所以需要先安装这些依赖工具。在有 yum 的系统上（比如 Fedora）或者有 apt-get 的系统上（比如 Debian 体系），可以用下面的命令安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line">$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev</div></pre></td></tr></table></figure></p>
+        <h1 id="安装"><a href="#安装" class="headerlink" title="安装"></a>安装</h1><h2 id="从源代码安装"><a href="#从源代码安装" class="headerlink" title="从源代码安装"></a>从源代码安装</h2><p>Git 的工作需要调用 curl，zlib，openssl，expat，libiconv 等库的代码，所以需要先安装这些依赖工具。在有 yum 的系统上（比如 Fedora）或者有 apt-get 的系统上（比如 Debian 体系），可以用下面的命令安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div></pre></td><td class="code"><pre><div class="line">$ yum install curl-devel expat-devel gettext-devel openssl-devel zlib-devel</div><div class="line">$ apt-get install libcurl4-gnutls-dev libexpat1-dev gettext libz-dev libssl-dev</div></pre></td></tr></table></figure></p>
 <p>之后，从下面的 Git 官方站点下载最新版本源代码：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">http://git-scm.com/download</div></pre></td></tr></table></figure></p>
 <p>然后编译并安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div></pre></td><td class="code"><pre><div class="line">$ tar -zxf git-1.7.2.2.tar.gz</div><div class="line">$ cd git-1.7.2.2</div><div class="line">$ make prefix=/usr/local all</div><div class="line">$ sudo make prefix=/usr/local install</div></pre></td></tr></table></figure></p>
 <h2 id="在-Linux-上安装"><a href="#在-Linux-上安装" class="headerlink" title="在 Linux 上安装"></a>在 Linux 上安装</h2><p>如果要在 Linux 上安装预编译好的 Git 二进制安装包，可以直接用系统提供的包管理工具。在 Fedora 上用 yum 安装：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ yum install git-core</div></pre></td></tr></table></figure></p>
@@ -479,194 +475,93 @@
 <p>要为本地分支设定不同于远程分支的名字，只需在第一个版本的命令里换个名字：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git checkout -b sf origin/serverfix</div></pre></td></tr></table></figure></p>
 <h2 id="删除远程分支"><a href="#删除远程分支" class="headerlink" title="删除远程分支"></a>删除远程分支</h2><p>如果不再需要某个远程分支了，比如搞定了某个特性并把它合并进了远程的 master 分支（或任何其他存放稳定代码的分支），可以用这个非常无厘头的语法来删除它：git push [远程名] :[分支名]。如果想在服务器上删除 serverfix 分支，运行下面的命令：<br><figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ git push origin :serverfix</div></pre></td></tr></table></figure></p>
 
-          
-        
       
     </div>
 
     <div>
       
+        
+
+      
     </div>
 
     <div>
       
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://stevenstar.github.io/2017/05/18/开始我的博客/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="steven.wang">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="https://avatars2.githubusercontent.com/u/4902693">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="王俊星的博客">
-    </span>
-
-    
-      <header class="post-header">
-
         
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/05/18/开始我的博客/" itemprop="url">开始我的博客</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-05-18T09:29:09+08:00">
-                2017-05-18
-              </time>
-            
-
-            
-
-            
-          </span>
-
-          
-            <span class="post-category" >
-            
-              <span class="post-meta-divider">|</span>
-            
-              <span class="post-meta-item-icon">
-                <i class="fa fa-folder-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">分类于</span>
-              
-              
-                <span itemprop="about" itemscope itemtype="http://schema.org/Thing">
-                  <a href="/categories/工具/" itemprop="url" rel="index">
-                    <span itemprop="name">工具</span>
-                  </a>
-                </span>
-
-                
-                
-              
-            </span>
-          
-
-          
-            
-              <span class="post-comments-count">
-                <span class="post-meta-divider">|</span>
-                <span class="post-meta-item-icon">
-                  <i class="fa fa-comment-o"></i>
-                </span>
-                <a href="/2017/05/18/开始我的博客/#comments" itemprop="discussionUrl">
-                  <span class="post-comments-count ds-thread-count" data-thread-key="2017/05/18/开始我的博客/" itemprop="commentCount"></span>
-                </a>
-              </span>
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+  <div style="padding: 10px 0; margin: 20px auto; width: 90%; text-align: center;">
+    <div>坚持原创技术分享，您的支持将鼓励我继续创作！</div>
+    <button id="rewardButton" disable="enable" onclick="var qr = document.getElementById('QR'); if (qr.style.display === 'none') {qr.style.display='block';} else {qr.style.display='none'}">
+      <span>赏</span>
+    </button>
+    <div id="QR" style="display: none;">
+      
+        <div id="wechat" style="display: inline-block">
+          <img id="wechat_qr" src="/images/pay-weixin.jpg" alt="steven.wang WeChat Pay"/>
+          <p>微信打赏</p>
         </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
       
       
+        <div id="alipay" style="display: inline-block">
+          <img id="alipay_qr" src="/images/pay-zhifubao.jpg" alt="steven.wang Alipay"/>
+          <p>支付宝打赏</p>
+        </div>
+      
+    </div>
+  </div>
 
+
+      
+    </div>
+
+    <div>
       
         
-          
-            <p>欢迎访问我的博客，这是我第一次提交。我使用的是 <code>HEXO</code>，具体教程访问<a href="https://hexo.io/zh-cn/docs/index.html" target="_blank" rel="external">HEXO中文文档</a></p>
-<h2 id="快速开始我的博客"><a href="#快速开始我的博客" class="headerlink" title="快速开始我的博客"></a>快速开始我的博客</h2><h3 id="创建新的博客"><a href="#创建新的博客" class="headerlink" title="创建新的博客"></a>创建新的博客</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
-<p>更多信息访问<a href="https://hexo.io/docs/writing.html" target="_blank" rel="external">Writing</a></p>
-<h3 id="运行后台"><a href="#运行后台" class="headerlink" title="运行后台"></a>运行后台</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo server</div></pre></td></tr></table></figure>
-<p>更多信息访问<a href="https://hexo.io/docs/server.html" target="_blank" rel="external">Server</a></p>
-<h3 id="创建静态文件"><a href="#创建静态文件" class="headerlink" title="创建静态文件"></a>创建静态文件</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo generate</div></pre></td></tr></table></figure>
-<p>更多信息访问<a href="https://hexo.io/docs/generating.html" target="_blank" rel="external">Generating</a></p>
-<h3 id="发布到GITHUB"><a href="#发布到GITHUB" class="headerlink" title="发布到GITHUB"></a>发布到<code>GITHUB</code></h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo deploy</div></pre></td></tr></table></figure>
-<p>更多信息访问<a href="https://hexo.io/docs/deployment.html" target="_blank" rel="external">Deployment</a></p>
 
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
       
     </div>
 
     <footer class="post-footer">
       
-
+        <div class="post-tags">
+          
+            <a href="/tags/GIT/" rel="tag"># GIT</a>
+          
+        </div>
       
 
       
+        
+      
 
       
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
+            
+              <a href="/2017/05/18/开始我的博客/" rel="next" title="开始我的博客">
+                <i class="fa fa-chevron-left"></i> 开始我的博客
+              </a>
+            
+          </div>
+
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
+            
+          </div>
+        </div>
       
-        <div class="post-eof"></div>
+
+      
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -674,6 +569,14 @@
 
 
           
+  <div class="comments" id="comments">
+    
+      <div class="ds-thread" data-thread-key="2017/05/23/GIT常用命令/"
+           data-title="GIT常用命令" data-url="http://stevenstar.github.io/2017/05/23/GIT常用命令/">
+      </div>
+    
+  </div>
+
 
         </div>
         
@@ -693,8 +596,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap" >
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview sidebar-panel sidebar-panel-active">
+      <section class="site-overview sidebar-panel">
         <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
           <img class="site-author-image" itemprop="image"
                src="https://avatars2.githubusercontent.com/u/4902693"
@@ -767,6 +679,22 @@
 
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#安装"><span class="nav-number">1.</span> <span class="nav-text">安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#从源代码安装"><span class="nav-number">1.1.</span> <span class="nav-text">从源代码安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在-Linux-上安装"><span class="nav-number">1.2.</span> <span class="nav-text">在 Linux 上安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在-Mac-上安装"><span class="nav-number">1.3.</span> <span class="nav-text">在 Mac 上安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#在-Windows-上安装"><span class="nav-number">1.4.</span> <span class="nav-text">在 Windows 上安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#初次运行-Git-前的配置"><span class="nav-number">1.5.</span> <span class="nav-text">初次运行 Git 前的配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#用户信息"><span class="nav-number">1.6.</span> <span class="nav-text">用户信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#文本编辑器"><span class="nav-number">1.7.</span> <span class="nav-text">文本编辑器</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#差异分析工具"><span class="nav-number">1.8.</span> <span class="nav-text">差异分析工具</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看配置信息"><span class="nav-number">1.9.</span> <span class="nav-text">查看配置信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#获取帮助"><span class="nav-number">1.10.</span> <span class="nav-text">获取帮助</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#常用命令"><span class="nav-number">2.</span> <span class="nav-text">常用命令</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#在工作目录中初始化新仓库"><span class="nav-number">2.1.</span> <span class="nav-text">在工作目录中初始化新仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从现有仓库克隆"><span class="nav-number">2.2.</span> <span class="nav-text">从现有仓库克隆</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#检查当前文件状态"><span class="nav-number">2.3.</span> <span class="nav-text">检查当前文件状态</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#跟踪新文件"><span class="nav-number">2.4.</span> <span class="nav-text">跟踪新文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#忽略某些文件"><span class="nav-number">2.5.</span> <span class="nav-text">忽略某些文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看已暂存和未暂存的更新"><span class="nav-number">2.6.</span> <span class="nav-text">查看已暂存和未暂存的更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#提交更新"><span class="nav-number">2.7.</span> <span class="nav-text">提交更新</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#跳过使用暂存区域"><span class="nav-number">2.8.</span> <span class="nav-text">跳过使用暂存区域</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#移除文件"><span class="nav-number">2.9.</span> <span class="nav-text">移除文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#移动文件"><span class="nav-number">2.10.</span> <span class="nav-text">移动文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看提交历史"><span class="nav-number">2.11.</span> <span class="nav-text">查看提交历史</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#修改最后一次提交"><span class="nav-number">2.12.</span> <span class="nav-text">修改最后一次提交</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#取消已经暂存的文件"><span class="nav-number">2.13.</span> <span class="nav-text">取消已经暂存的文件</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#取消对文件的修改"><span class="nav-number">2.14.</span> <span class="nav-text">取消对文件的修改</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看当前的远程库"><span class="nav-number">2.15.</span> <span class="nav-text">查看当前的远程库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#添加远程仓库"><span class="nav-number">2.16.</span> <span class="nav-text">添加远程仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#从远程仓库抓取数据"><span class="nav-number">2.17.</span> <span class="nav-text">从远程仓库抓取数据</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推送数据到远程仓库"><span class="nav-number">2.18.</span> <span class="nav-text">推送数据到远程仓库</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#查看远程仓库信息"><span class="nav-number">2.19.</span> <span class="nav-text">查看远程仓库信息</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#远程仓库的删除和重命名"><span class="nav-number">2.20.</span> <span class="nav-text">远程仓库的删除和重命名</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#列显已有的标签"><span class="nav-number">2.21.</span> <span class="nav-text">列显已有的标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新建含附注的标签"><span class="nav-number">2.22.</span> <span class="nav-text">新建含附注的标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新建签署标签"><span class="nav-number">2.23.</span> <span class="nav-text">新建签署标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#新建轻量级标签"><span class="nav-number">2.24.</span> <span class="nav-text">新建轻量级标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#验证标签"><span class="nav-number">2.25.</span> <span class="nav-text">验证标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#后期加注标签"><span class="nav-number">2.26.</span> <span class="nav-text">后期加注标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分享标签"><span class="nav-number">2.27.</span> <span class="nav-text">分享标签</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#Git-命令别名"><span class="nav-number">2.28.</span> <span class="nav-text">Git 命令别名</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#Git-分支"><span class="nav-number">3.</span> <span class="nav-text">Git 分支</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#分支的新建与切换"><span class="nav-number">3.1.</span> <span class="nav-text">分支的新建与切换</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分支的合并"><span class="nav-number">3.2.</span> <span class="nav-text">分支的合并</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#遇到冲突时的分支合并"><span class="nav-number">3.3.</span> <span class="nav-text">遇到冲突时的分支合并</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#分支的管理"><span class="nav-number">3.4.</span> <span class="nav-text">分支的管理</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#推送本地分支"><span class="nav-number">3.5.</span> <span class="nav-text">推送本地分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#跟踪远程分支"><span class="nav-number">3.6.</span> <span class="nav-text">跟踪远程分支</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#删除远程分支"><span class="nav-number">3.7.</span> <span class="nav-text">删除远程分支</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
@@ -885,6 +813,10 @@
   
 
   
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+<script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
+
+
 
   
 
