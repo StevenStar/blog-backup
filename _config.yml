@@ -5,10 +5,10 @@
 # Site
 title: 王俊星的博客
 subtitle: 为了生活编程，编程改变生活
-description: 淮南师范学院08级，就职于赵涌在线技术部。擅长各项编程技能，非专业全栈开发攻城师
+description: 我是一名前端工程师，专注学习各种编程语言
 author: steven.wang
 email: stevenjxw@gmail.com
-language: zh-Hans
+language: zh-CN
 timezone: Asia/Shanghai
 
 # URL
@@ -79,7 +79,7 @@ deploy:
 
 sitemap:
     path: sitemap.xml
-    template: ./sitemap_template.xml
+    # template: ./sitemap_template.xml
 
 feed:
     type: atom
